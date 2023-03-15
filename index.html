@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OMDB API</title>
+    <style>
+      #dispContainent {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>OMDB API</h1>
+      Search Movie : <input type="text" name="MovieName" id="MovieName" />
+      <button type="submit" onclick="movie()">Submit</button>
+    </div>
+    <div id="dispContainent">
+      <div id="dispImg"></div>
+      <div id="dispData"></div>
+    </div>
+  </body>
+</html>
+<script src="/AdvanceJs/OMDB_API/index.js"></script>
